@@ -1,0 +1,14 @@
+{
+  "name": "Blank Liu",
+  "greeting": "Hi, I'm Blank Liu",
+  "seeWork": "See My Work",
+  "projects": "Featured Projects",
+  "viewOnGitHub": "View on GitHub",
+  "viewOnCSDN": "View on CSDN",
+
+  "aboutTitle": "About Me",
+  "aboutDescription": "I'm a vibrant and energetic full-stack Java developer with proficiency in multiple programming languages. I thrive on tackling complex problems and continuously seek to expand my skill set and knowledge base.",
+
+  "githubUrl": "https://github.com/blankliu404",
+  "csdnUrl": "https://blog.csdn.net/L333333333"
+}

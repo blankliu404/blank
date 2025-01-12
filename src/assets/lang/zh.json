@@ -1,0 +1,14 @@
+{
+  "name": "刘先生",
+  "greeting": "你好，我是刘先生",
+  "seeWork": "查看我的作品",
+  "projects": "精选项目",
+  "viewOnGitHub": "查看 GitHub",
+  "viewOnCSDN": "查看 CSDN",
+
+  "aboutTitle": "关于我",
+  "aboutDescription": "我是一名充满活力和精力充沛的全栈Java开发者，精通多种编程语言。我喜欢解决复杂问题，并不断寻求扩展自己的技能和知识库。",
+
+  "githubUrl": "https://github.com/blankliu404",
+  "csdnUrl": "https://blog.csdn.net/L333333333"
+}

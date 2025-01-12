@@ -1,85 +1,46 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
   <RouterView />
+  <n-tooltip trigger="hover" placement="right">
+    <template #trigger>
+      <n-float-button :right="50" :bottom="50" menu-trigger="hover" type="primary">
+        <n-icon>
+          <MenuIcon />
+        </n-icon>
+        <template #menu>
+          <!-- <n-tooltip-float-button tooltip-text="设置" menu-route="/settings">
+            <template #icon>
+              <settings-icon />
+            </template>
+          </n-tooltip-float-button> -->
+          <n-tooltip-float-button tooltip-text="主页" menu-route="/">
+            <template #icon>
+              <home-icon />
+            </template>
+          </n-tooltip-float-button>
+        </template>
+      </n-float-button>
+    </template>
+    菜单
+  </n-tooltip>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
+<script lang="ts">
+import { Menu as MenuIcon, Home as HomeIcon, Settings as SettingsIcon } from '@vicons/ionicons5'
+import NTooltipFloatButton from './components/NTooltipFloatButton.vue'
+import { defineComponent } from 'vue'
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
+export default defineComponent({
+  components: {
+    MenuIcon,
+    HomeIcon,
+    SettingsIcon,
+    NTooltipFloatButton,
+  },
+})
+</script>
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
-}
-</style>
+<style scoped></style>
