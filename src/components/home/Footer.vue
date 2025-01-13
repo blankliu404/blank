@@ -10,6 +10,12 @@
         currentLang.viewOnCSDN || 'Loading...'
       }}</a>
     </div>
+    <div class="friends-links">
+      <span>{{ currentLang.friendLinksTitle }}</span>&emsp;
+      <a :href="currentLang.springdocZhUrl" target="_blank">{{
+        currentLang.springdocZh || 'Loading...'
+      }}</a>
+    </div>
   </footer>
 </template>
 

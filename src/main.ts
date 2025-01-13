@@ -15,12 +15,14 @@ import {
   NSlider,
   NGrid,
   NGridItem,
+  NPopover,
+  NImage,
   // create naive ui
   create,
 } from 'naive-ui'
 
 const naive = create({
-  components: [NFloatButton, NIcon, NTooltip, NFlex, NSlider, NGrid, NGridItem],
+  components: [NFloatButton, NIcon, NTooltip, NFlex, NSlider, NGrid, NGridItem, NPopover, NImage],
 })
 
 const pinia = createPinia()

@@ -1,14 +1,29 @@
 {
   "name": "Blank Liu",
   "greeting": "Hi, I'm Blank Liu",
+  "aboutDescription": "Java backend developer with four years of work experience, former employee of Hikvision Beijing R&D Center, familiar with frontend, Golang, PHP, Python, C++, Android, full-stack engineer, large model user, and a dedicated programmer",
   "seeWork": "See My Work",
+  "seeMyTopic": "See My Articles",
+  "helpMe": "Help me find a job",
   "projects": "Featured Projects",
   "viewOnGitHub": "View on GitHub",
   "viewOnCSDN": "View on CSDN",
 
+  "titlePop": "Click to enlarge",
+
   "aboutTitle": "About Me",
-  "aboutDescription": "I'm a vibrant and energetic full-stack Java developer with proficiency in multiple programming languages. I thrive on tackling complex problems and continuously seek to expand my skill set and knowledge base.",
 
   "githubUrl": "https://github.com/blankliu404",
-  "csdnUrl": "https://blog.csdn.net/L333333333"
+  "csdnUrl": "https://blog.csdn.net/L333333333",
+
+  "friendLinksTitle": "Friendly links:",
+  "springdocZhUrl": "https://forum.springdoc.cn/",
+  "springdocZh": "spring Chinese forum",
+
+  "descriptionKeyBlankServer": "A simple Servlet server implemented in Java, purely native implementation, suitable for beginners",
+  "descriptionKeyBlankBlog": "A Java Web course design, suitable for Java Web beginners to learn blog projects",
+  "descriptionKeyCounter": "A native Android score counter, suitable for beginners in native Android development",
+  "descriptionKeyCsshearts": "Show off in front of your loved one, download it, open it directly in the browser, and you can start",
+  "descriptionKeyAlienInvasion": "It seems to be a small game, I forgot it because it has been a long time, this is an entry-level practice for pygame",
+  "descriptionKeyDataVisualization": "This is a Python data visualization exercise"
 }

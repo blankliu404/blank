@@ -1,14 +1,29 @@
 {
   "name": "刘先生",
-  "greeting": "你好，我是刘先生",
+  "greeting": "您好，我是刘先生",
+  "aboutDescription": "拥有四年工作经验的Java后端开发者，曾任职于海康威视北京研发中心，会一点点儿前端、Golang、PHP、Python、C++、Android，全栈工程师，大模型用户，死肥宅程序员",
   "seeWork": "查看我的作品",
+  "seeMyTopic": "查看我的文章",
+  "helpMe": "帮我找工作",
   "projects": "精选项目",
   "viewOnGitHub": "查看 GitHub",
   "viewOnCSDN": "查看 CSDN",
 
+  "titlePop": "点击放大",
+
   "aboutTitle": "关于我",
-  "aboutDescription": "我是一名充满活力和精力充沛的全栈Java开发者，精通多种编程语言。我喜欢解决复杂问题，并不断寻求扩展自己的技能和知识库。",
 
   "githubUrl": "https://github.com/blankliu404",
-  "csdnUrl": "https://blog.csdn.net/L333333333"
+  "csdnUrl": "https://blog.csdn.net/L333333333",
+
+  "friendLinksTitle": "友情链接:",
+  "springdocZhUrl": "https://forum.springdoc.cn/",
+  "springdocZh": "spring中文论坛",
+
+  "descriptionKeyBlankServer": "一个Java实现的简易Servlet服务器，纯原生实现，适合新人入门",
+  "descriptionKeyBlankBlog": "一个Java Web课程设计，适合Java Web初学者学习的博客项目",
+  "descriptionKeyCounter": "一个Android原生开发的计分器，适合Android原生开发初学者",
+  "descriptionKeyCsshearts": "在心爱的人面前装波大的，下载下来，浏览器直接打开，就可以开始了",
+  "descriptionKeyAlienInvasion": "这似乎是一个小型游戏，因为时间太久我忘记了-_-,这是一个pygame的入门级练习",
+  "descriptionKeyDataVisualization": "python数据可视化练习"
 }

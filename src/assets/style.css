@@ -1,5 +1,6 @@
 /* Full-screen layout */
-html, body {
+html,
+body {
   height: 100%; /* Ensure the page fills the entire screen */
   margin: 0; /* Remove default margins */
 }
@@ -38,7 +39,9 @@ body {
   padding: 0;
   background-color: var(--background-light);
   color: var(--text-color-light);
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 body.dark-mode {
@@ -46,7 +49,12 @@ body.dark-mode {
   color: var(--text-color-dark);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -61,12 +69,16 @@ a:hover {
 }
 
 /* Button styles */
-button, .theme-toggle, .language-select {
+button,
+.theme-toggle,
+.language-select {
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.3s;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s;
   border: none;
 }
 
@@ -88,22 +100,26 @@ body.dark-mode button:hover {
   background-color: var(--button-hover-background-dark);
 }
 
-.theme-toggle, .language-select {
+.theme-toggle,
+.language-select {
   background-color: var(--button-background-light);
   color: var(--button-text-color-light);
   border: 1px solid #ccc;
 }
 
-body.dark-mode .theme-toggle, body.dark-mode .language-select {
+body.dark-mode .theme-toggle,
+body.dark-mode .language-select {
   background-color: var(--button-background-dark);
   color: var(--button-text-color-dark);
 }
 
-.theme-toggle:hover, .language-select:hover {
+.theme-toggle:hover,
+.language-select:hover {
   background-color: var(--button-hover-background-light);
 }
 
-body.dark-mode .theme-toggle:hover, body.dark-mode .language-select:hover {
+body.dark-mode .theme-toggle:hover,
+body.dark-mode .language-select:hover {
   background-color: var(--button-hover-background-dark);
 }
 
@@ -156,7 +172,7 @@ div.loading {
   transition: background-color 0.3s; /* Smooth transition between light/dark mode */
   display: flex; /* Use flexbox to center content */
   justify-content: flex-start;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: center; /* Vertically center the list */
 }
 
@@ -190,7 +206,9 @@ body.dark-mode .projects {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
   padding-left: var(--padding); /* Added padding */
   padding-right: var(--padding); /* Added padding */
   width: 100%; /* Ensures cards stretch fully within each grid cell */
@@ -258,6 +276,10 @@ body.dark-mode .project-card:hover {
   color: #333;
 }
 
+body.dark-mode p {
+  color: var(--text-color-dark);
+}
+
 .about-image img {
   max-width: 100%;
   height: auto;
@@ -300,7 +322,13 @@ body.dark-mode .hero p {
   border-radius: 8px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+}
+
+.hero .cta {
+  cursor: pointer;
 }
 
 .hero .cta-button:hover {

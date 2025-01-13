@@ -15,5 +15,6 @@ interface Translations {
 
 interface Project {
   name: string;
+  description: string;
   githubLink: string;
 }
